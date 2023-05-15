@@ -34,5 +34,8 @@ Game Logic: The game keeps track of the flipped cards, checks for matches, and u
 
 Game Controls: The game provides controls to start a new game. Reloading the page shuffles the cards and restarts the game.
 
+## Live URL 
+- Live Site URL: [Visit Site](https://hassanakhtar8.github.io/memoryGame/)
+
 # Conclusion
 - The memory game provides an enjoyable and challenging experience for players. By clicking Restart button, the cards are shuffled, adding an element of randomness to each playthrough. Have fun testing your memory and enjoy the game!
