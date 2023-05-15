@@ -9,6 +9,36 @@ body {
   flex-direction: column;
   align-items: center;
 }
+body .modal {
+  width: 80%;
+  height: 80%;
+  background-color: rgb(95, 95, 206);
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 3;
+}
+body .modal p {
+  font-size: 2rem;
+  margin: 1rem;
+}
+body .modal .btn {
+  width: 8rem;
+  height: 4rem;
+  background-color: blue;
+  color: white;
+  font-size: 2rem;
+  margin: 1rem;
+  border-radius: 1rem solid black;
+}
+body .modal .btn:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
 body .header {
   width: 100%;
   height: 3rem;
