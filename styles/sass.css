@@ -109,4 +109,16 @@ body .footer {
   height: 4rem;
   font-size: 2rem;
   margin-top: 2rem;
+}
+
+@media (max-width: 300px) {
+  body {
+    width: 100%;
+  }
+  body .memory-game {
+    width: 90%;
+  }
+  body .memory-game .memory-card {
+    width: 50%;
+  }
 }/*# sourceMappingURL=sass.css.map */
