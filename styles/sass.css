@@ -116,9 +116,9 @@ body .footer {
     width: 100%;
   }
   body .memory-game {
-    width: 90%;
+    width: 100%;
   }
   body .memory-game .memory-card {
-    width: 50%;
+    width: 100%;
   }
 }/*# sourceMappingURL=sass.css.map */
