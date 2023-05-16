@@ -120,13 +120,29 @@ body{
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     body{
         width: 100%;
         .memory-game{
             width: 100%;
             .memory-card{
-                width: 100%;
+                width: 25%;
+            }
+        }
+    }
+}
+@media (max-width: 380px) {
+    body{
+        width: 100%;
+        .memory-game{
+            width: 100%;
+            background-color: lightblue;
+            margin: 0;
+            .memory-card{
+                width: 20%;
+                .background{
+                    font-size: 0.6rem;
+                }
             }
         }
     }

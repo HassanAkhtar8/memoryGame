@@ -111,7 +111,7 @@ body .footer {
   margin-top: 2rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   body {
     width: 100%;
   }
@@ -119,6 +119,22 @@ body .footer {
     width: 100%;
   }
   body .memory-game .memory-card {
+    width: 25%;
+  }
+}
+@media (max-width: 380px) {
+  body {
     width: 100%;
+  }
+  body .memory-game {
+    width: 100%;
+    background-color: lightblue;
+    margin: 0;
+  }
+  body .memory-game .memory-card {
+    width: 20%;
+  }
+  body .memory-game .memory-card .background {
+    font-size: 0.6rem;
   }
 }/*# sourceMappingURL=sass.css.map */
