@@ -12,7 +12,9 @@ body {
 body .modal {
   width: 80%;
   height: 80%;
-  background-color: rgb(95, 95, 206);
+  background-image: url("/image/colorfull.jpg");
+  background-size: cover;
+  border-radius: 1rem;
   position: absolute;
   top: 10%;
   left: 10%;
@@ -29,7 +31,7 @@ body .modal p {
 body .modal .btn {
   width: 8rem;
   height: 4rem;
-  background-color: blue;
+  background-color: lightcoral;
   color: white;
   font-size: 2rem;
   margin: 1rem;
@@ -38,6 +40,7 @@ body .modal .btn {
 body .modal .btn:hover {
   background-color: transparent;
   cursor: pointer;
+  color: black;
 }
 body .header {
   width: 100%;
@@ -101,6 +104,10 @@ body .memory-game .memory-card .background {
   transition: 0.8s ease all;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+}
+body .memory-game .memory-card .background .bg {
+  width: 100%;
+  height: 100%;
 }
 body .memory-game .active .background {
   transform: rotateY(180deg);
