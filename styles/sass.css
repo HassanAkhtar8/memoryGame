@@ -67,7 +67,6 @@ body .memory-game .memory-card {
   position: relative;
   margin: 1rem;
   flex-direction: column;
-  background-color: rgb(20, 123, 220);
   width: 25%;
   height: 4rem;
   border: 0.2rem solid black;
@@ -99,7 +98,6 @@ body .memory-game .memory-card .background {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
-  background-color: gray;
   z-index: 2;
   transition: 0.8s ease all;
   backface-visibility: hidden;
