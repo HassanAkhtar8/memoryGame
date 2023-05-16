@@ -56,10 +56,15 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 70%;
+        width: 100%;
         flex-wrap: wrap;
         
         .memory-card{
+            .image{
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+            }
             display: flex;
             justify-content: center;
             align-items: center;
@@ -67,10 +72,11 @@ body{
             margin: 1rem;
             flex-direction: column;
             background-color: rgb(20, 123, 220);
-            width: 30%;
-            height: 3rem;
-           border: 0.2rem solid black;
-           padding: 1rem;
+            width: 25%;
+            height: 4rem;
+            border: 0.2rem solid black;
+           //padding: 1rem;
+           height: 5rem;
            z-index: 1;
            overflow: hidden;
            transform-style: preserve-3d;
@@ -126,7 +132,7 @@ body{
         .memory-game{
             width: 100%;
             .memory-card{
-                width: 25%;
+                width: 30%;
             }
         }
     }
